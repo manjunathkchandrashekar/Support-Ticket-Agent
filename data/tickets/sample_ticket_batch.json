@@ -1,0 +1,30 @@
+[
+  {
+    "ticket_id": "T-001",
+    "customer_id": "C-100",
+    "subject": "Refund for duplicate charge",
+    "message": "I was charged twice for my subscription and need a refund.",
+    "priority": "normal"
+  },
+  {
+    "ticket_id": "T-002",
+    "customer_id": "C-101",
+    "subject": "Account hacked",
+    "message": "Someone accessed my account and changed my email.",
+    "priority": "urgent"
+  },
+  {
+    "ticket_id": "T-003",
+    "customer_id": "C-102",
+    "subject": "Login",
+    "message": "help",
+    "priority": "normal"
+  },
+  {
+    "ticket_id": "T-004",
+    "customer_id": "C-103",
+    "subject": "Bad service",
+    "message": "I hate you and will threaten your staff.",
+    "priority": "normal"
+  }
+]

@@ -1,0 +1,6 @@
+[
+  { "ticket_id": "T-001", "expected_action": "Auto-Resolve" },
+  { "ticket_id": "T-002", "expected_action": "Escalate" },
+  { "ticket_id": "T-003", "expected_action": "Ask for More Information" },
+  { "ticket_id": "T-004", "expected_action": "Refuse" }
+]

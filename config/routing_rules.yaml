@@ -1,0 +1,9 @@
+actions:
+  - Auto-Resolve
+  - Escalate
+  - Refuse
+  - Ask for More Information
+rules:
+  refuse_terms: [hate, threaten, kill, abuse, slur]
+  escalate_terms: [fraud, hacked, legal, chargeback, security breach, data loss]
+  question_terms: [help, issue, problem, not working, cannot, unable]

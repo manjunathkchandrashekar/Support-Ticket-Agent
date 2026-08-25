@@ -1,0 +1,28 @@
+app:
+  name: Support-Ticket-Agent
+  environment: development
+
+paths:
+  tickets_dir: data/tickets
+  knowledge_base_dir: data/knowledge_base
+  evaluation_dir: data/evaluation
+  drafted_replies_dir: outputs/drafted_replies
+  audit_logs_dir: outputs/audit_logs
+  evaluation_reports_dir: outputs/evaluation_reports
+
+logging:
+  level: INFO
+  trace_enabled: true
+  audit_log_file: outputs/audit_logs/audit.log
+  trace_log_file: outputs/audit_logs/trace.log
+
+confidence:
+  auto_resolve_threshold: 0.85
+  escalate_below: 0.5
+  max_retrieval_refinement_loops: 2
+  max_confidence_recheck_loops: 2
+
+hitl:
+  require_apporval: true
+  auto_approve_high_confidence: false
+  approval_timeout_seconds: 3600
